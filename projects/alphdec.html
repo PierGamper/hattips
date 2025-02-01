@@ -1,0 +1,65 @@
+<!doctype html>
+<html dir='ltr' lang='en-gb' data-theme='dark'>
+  <head>
+    <meta charset='utf-8'/>
+    <meta http-equiv='Content-Type' content='text/html; charset=utf-8'/>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel='home' href='index.html'/>
+    <link rel='stylesheet' href='../style2.css' media='screen'/>
+
+    <link rel='icon' type='image/png' href='../images/logotip.png'/>
+    <link rel='apple-touch-icon' type='image/png' href='../images/logotip.png'/>
+
+
+    <title>Projects | Hat Tips</title>
+
+    <meta name='thumbnail' content='../images/logotip.png'/>
+    <meta name='description' content='Hat Tips is a website by Pier Gamper'/>
+
+    <meta name='twitter:url' content='index.html'/>
+    <meta name='twitter:card' content='summary_large_image'/>
+    <meta name='twitter:site' content='hattip(s)'/>
+    <meta name='twitter:title' content='Hat Tips'/>
+    <meta name='twitter:image' content='../images/logotip.png'/>
+    <meta name='twitter:description' content='Hat Tips is a website by Pier Gamper'/>
+
+    <meta property='og:url' content='index.html'/>
+    <meta property='og:type' content='website'/>
+    <meta property='og:title' content='Hat Tips'/>
+    <meta property='og:site_name' content='Hat Tips'/>
+    <meta property='og:description' content='Hat Tips is a website by Pier Gamper'/>
+
+    <meta property='og:image' content='../images/logotip.png'/>
+    <meta property='og:image:width' content='1024'/>
+    <meta property='og:image:height' content='512'/>
+  </head>
+
+  <body>
+  	<header>
+      <a href='../index.html'><img src='../images/logotip.png'/></a>
+      <h1>Alpha-Decimal Measurement System</h1>
+      <span>a10</span>
+  	</header>
+  	<nav>
+        <button id='toggle-theme'>Toggle Theme</button>
+      </nav>
+
+    <script>
+      const toggleThemeBtn = document.querySelector('#toggle-theme');
+
+      toggleThemeBtn.addEventListener('click', function() {
+        const currentTheme = document.documentElement.getAttribute('data-theme');
+        const newTheme = currentTheme === 'dark' ? 'light' : currentTheme === 'dark' ? 'light': 'dark';
+        document.documentElement.setAttribute('data-theme', newTheme);
+      });
+    </script>
+
+  	<main>
+      <article>
+        <p>Nothing here yet.</p>
+      </article>
+  	</main>
+  	<footer></footer>
+  </body>
+</html>

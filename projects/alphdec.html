@@ -12,7 +12,7 @@
     <link rel='apple-touch-icon' type='image/png' href='../images/logotip.png'/>
 
 
-    <title>Projects | Hat Tips</title>
+    <title>Alpha-Decimal | Hat Tips</title>
 
     <meta name='thumbnail' content='../images/logotip.png'/>
     <meta name='description' content='Hat Tips is a website by Pier Gamper'/>
@@ -33,6 +33,39 @@
     <meta property='og:image' content='../images/logotip.png'/>
     <meta property='og:image:width' content='1024'/>
     <meta property='og:image:height' content='512'/>
+
+    <script id='MathJax-script' async src='https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js'></script>
+
+    <style>
+      /* quantity image */
+      span.qImg{
+        width: 10vw;
+        height: 10vw;
+        display: block;
+        margin: auto;
+        position: relative;
+        background-size: 100vw 20vw;
+        background-image: url(../images/quantity-atlas1.png);
+      }
+
+      /* quantity index */
+      .qIndex-0 {background-position:   0     0;}
+      .qIndex-1 {background-position: -10vw   0;}
+      .qIndex-2 {background-position: -20vw   0;}
+      .qIndex-3 {background-position: -30vw   0;}
+      .qIndex-4 {background-position: -40vw   0;}
+      .qIndex-5 {background-position: -50vw   0;}
+      .qIndex-6 {background-position: -60vw   0;}
+      .qIndex-7 {background-position: -70vw   0;}
+      .qIndex-8 {background-position: -80vw   0;}
+      .qIndex-9 {background-position: -90vw   0;}
+      .qIndex-10{background-position:   0   -10vw;}
+      .qIndex-11{background-position: -10vw -10vw;}
+      .qIndex-12{background-position: -20vw -10vw;}
+      .qIndex-13{background-position: -30vw -10vw;}
+      .qIndex-14{background-position: -40vw -10vw;}
+    </style>
+
   </head>
 
   <body>
@@ -57,7 +90,244 @@
 
   	<main>
       <article>
-        <p>Nothing here yet.</p>
+        <p>
+          Abbreviated as AlphDec (or ADC), the Alpha-Decimal system is design to simplify calculations in physics and other natural sciences while keeping a convenient size for everyday use.
+        </p>
+        <p>
+          This system is based on the International System of Units (SI), the standard in most countries. Being a coherent system with 7 base units for different physical quantities that are combined to make derived units. It attempts to retain the size of the base SI units for convenience and keeps most fundamental constants of SI to define the base units.
+        </p>
+
+        <hr/>
+
+        <h2>Introduction</h2>
+        <p>
+          AlphDec distinguishes 7 physical quantities, time (represented by the letter T), length (L), mass (M), electric current (I), thermodynamic temperature (Θ), amount of substance (N) and luminous intensity (J). for each of these quantities AlphDec assigns one base unit; these being: the cronmon (with symbol cr), mikmon (mk), adramon (dr), ilekmon (lk), zesmon (zs), posmon (ps) and kermon (kr) corresponding to the quantities in the aforementioned order (T, L, M, I, Θ, N, J).
+        </p>
+        <p>
+          To define the base units in a way that allows for their recreation anywhere else on the planet, AlphDec, just like SI, uses 7 defining constants; giving them fixed numerical values; these constants being: the unperturbed ground-state hyperfine transition frequency of a caesium-133 atom (&Delta;v<sub>Cs</sub>), the speed of light in a vacuum (c<sub>0</sub>), the reduced Planck constant (&hbar;), the elementary charge (e<sub>q</sub>), the Boltzmann constant (k<sub>B</sub>), the Avogadro constant (N<sub>A</sub>) and the luminous efficacy of monochromatic radiation frequency 540 &times; 10<sup>12</sup> Hz (K<sub>cd</sub>)
+        </p>
+        <p>
+          These are identities that help scientists describe how the universe behaves, often relating different phenomena and determining the way in which matter can interact or change. These can be measured and it is very important to do so as it enables scientists to predict the result of an experiment and, later on, use the results to advance technology.
+      </p>
+      <p>
+        However, most of these vary depending on how we measure them. Actually, we can chose a handful of constants and set their numerical value to be whatever we want; this will not change their place in the universe, just the way we measure stuff.
+      </p>
+      <p>
+        Through careful consideration and experimentation, many scientists were able to achieve this, resulting in the 2019 redefinition of the metric system. Now, because the units are defined in terms of fundamental constants, their scale can be replicated anywhere on the universe, given the proper tools. This supplanted the old artifacts that taken as reference for all units to be the same, as these artifacts can degrade with time and are cumbersome to work with; the new definition is fundamentally superior.
+      </p>
+      <p>
+        The goal of the redefinition was to keep the new units as close as possible to the old artifacts, as a result, the values given to the constants were rather awkward to work with. But this was done to keep a, so to speak, 'backwards compatibility' and not force everybody to discard their old rulers and thermometers (not to mention other highly expensive measuring tools)
+      </p>
+      <p>
+        But what if instead, a system of measurement existed solely considering the base units and setting their values to be convenient for scientists to work with? What would such a system look like? AlphDec was created as an attempt to answer that question.
+      </p>
+
+      <h2>Base Units</h2>
+      <p>
+        The 7 base units are named after their corresponding quantity in Greek with the suffix '-mon' form Greek μονάδα (monáda; unit) and represented by a symbol using the first 2 consonant letters in their name
+      </p>
+
+      <!--    ++++++++++++++++++++++++++++++++++++++++++++++++     -->
+      <table>
+        <!-- generic, example -->
+        <tr class='head-row'>
+          <th>AlphDec unit</th>
+          <th>symbol</th>
+          <th>Quantity</th>
+          <td rowspan='3' class='image-cell'>
+            <span class='qImg qIndex-0' >
+          </td>
+        </tr>
+        <tr class='odd-row'>
+          <td>SI unit (symbol)</td>
+          <td colspan='2'>(approximated) conversion factor</td>
+        </tr>
+        <tr>
+          <td colspan='3'>
+            Definition
+          </td>
+        </tr>
+        <!-- orange, time -->
+        <tr class='head-row orange'>
+          <th>cronmon</th>
+          <th>cr</th>
+          <th>Time</th>
+          <td rowspan='3' class='image-cell'>
+            <span class='qImg qIndex-1' >
+          </td>
+        </tr>
+        <tr class='odd-row orange'>
+          <td>second (s)</td>
+          <td colspan='2'>1cr = 0.4320 0001 s</td>
+        </tr>
+        <tr class='orange'>
+          <td colspan='3'>
+            Defined by taking the fixed numerical value of caesium frequency, &Delta;v<sub>Cs</sub>, to be 39 7121 7017 when expressed in terms of cr<sup>-1</sup>
+          </td>
+        </tr>
+
+        <!-- crimson, length -->
+        <tr class='head-row crimson'>
+          <th>mikmon</th>
+          <th>mk</th>
+          <th>Length</th>
+          <td rowspan='3' class='image-cell'>
+            <span class='qImg qIndex-2' >
+          </td>
+        </tr>
+        <tr class='odd-row crimson'>
+          <td>metre (m)</td>
+          <td colspan='2'>1mk = 1.2951 0345 m</td>
+        </tr>
+        <tr class='crimson'>
+          <td colspan='3'>
+            Defined by taking the fixed numerical value of the speed of light in a vacuum, c, to be 10<sup>8</sup> when expressed in the unit cr<sup>-1</sup> &times; mk
+          </td>
+        </tr>
+
+        <!-- purple, mass -->
+        <tr class='head-row purple'>
+          <th>adramon</th>
+          <th>dr</th>
+          <th>Mass</th>
+          <td rowspan='3' class='image-cell'>
+            <span class='qImg qIndex-3' >
+          </td>
+        </tr>
+        <tr class='odd-row purple'>
+          <td>kilogram (kg)</td>
+          <td colspan='2'>1dr = 2.7161 3279 kg</td>
+        </tr>
+        <tr class='purple'>
+          <td colspan='3'>
+            Defined by taking the fixed numerical value of the reduced Planck constant, &hbar;, to be 10<sup>-35</sup> when expressed in terms of cr<sup>-1</sup> &times; ml<sup>2</sup> &times; dr
+          </td>
+        </tr>
+
+        <!-- blue, current -->
+        <tr class='head-row blue'>
+          <th>ilekmon</th>
+          <th>lk</th>
+          <th>(I) electric current</th>
+          <td rowspan='3' class='image-cell'>
+            <span class='qImg qIndex-4' >
+          </td>
+        </tr>
+        <tr class='odd-row blue'>
+          <td>ampere (A)</td>
+          <td colspan='2'>1lk = 0.3708 7421 A</td>
+        </tr>
+        <tr class='blue'>
+          <td colspan='3'>
+            Defined by taking the fixed numerical value of the elementary charge, e<sub>char</sub>, to be 10<sup>-18</sup> when expressed in terms of cr &times; lk
+          </td>
+        </tr>
+
+        <!-- teal, temperature -->
+        <tr class='head-row teal'>
+          <th>zesmon</th>
+          <th>zs</th>
+          <th>(&Theta;) thermodynamic temperature</th>
+          <td rowspan='3' class='image-cell'>
+            <span class='qImg qIndex-5' >
+          </td>
+        </tr>
+        <tr class='odd-row teal'>
+          <td>kelvin (K)</td>
+          <td colspan='2'>1zs = 0.1768 1094 K</td>
+        </tr>
+        <tr class='teal'>
+          <td colspan='3'>
+            Defined by taking the fixed numerical value of the Boltzmann constant, k<sub>B</sub>, to be 10<sup>-25</sup> when expressed in terms of cr<sup>-2</sup> &times; mk<sup>2</sup> &times; dr &times; zs<sup>-1</sup>
+          </td>
+        </tr>
+
+        <!-- green, amount of matter -->
+        <tr class='head-row green'>
+          <th>posmon</th>
+          <th>ps</th>
+          <th>(N) amount of substance</th>
+          <td rowspan='3' class='image-cell'>
+            <span class='qImg qIndex-6' >
+          </td>
+        </tr>
+        <tr class='odd-row green'>
+          <td>mole (mol)</td>
+          <td colspan='2'>1ps = 1.6605 3907 mol</td>
+        </tr>
+        <tr class='green'>
+          <td colspan='3'>
+            Defined by taking the fixed numerical value of the Avogadro constant, N<sub>A</sub>, to be 10<sup>24</sup> when expressed in terms of ps<sup>-1</sup>
+          </td>
+        </tr>
+
+        <!-- lime, luminous intensity -->
+        <tr class='head-row lime'>
+          <th>kermon</th>
+          <th>kr</th>
+          <th>(J) luminous intensity</th>
+          <td rowspan='3' class='image-cell'>
+            <span class='qImg qIndex-7' >
+          </td>
+        </tr>
+        <tr class='odd-row lime'>
+          <td>candela (cd)</td>
+          <td colspan='2'>1kr = 0.3859 4849 cd</td>
+        </tr>
+        <tr class='lime'>
+          <td colspan='3'>
+            Defined by taking the fixed numerical value of the luminous intensity of monochromatic radiation of frequency 233.28&times; 10<sup>12</sup> cr<sup>-1</sup>, K<sub>cd</sub> (the frequency of light to which the human eye is most sensitive to), to be 10<sup>14</sup> when expressed in terms of cr<sup>-3</sup> &times; mk<sup>2</sup> &times; dr &times; &times; kr &times; st
+          </td>
+        </tr>
+      </table>
+      <!--    ++++++++++++++++++++++++++++++++++++++++++++++++     -->
+
+      <h3>The cronmon</h3>
+      <p>Named after the Greek word for time, <i>'χρόνος' (khr&oacute;nos)</i> and represented by the symbol <i>cr</i>, it is abbreviated as 'cron' (pronounced <span class='IPA'>/k&#x279;&#x252;n/</span>). This unit is meant to set the mean solar day (the time for the sun to be in the same position as observed from earth's surface) to be 200 000 cr. In order for the cronmon to have a persistent definition and be accurate for everyone it is defined in terms of the unperturbed ground-state hyperfine transition frequency of a caesium-133 atom (or just caesium frequency), &Delta;v<sub>Cs</sub> which is said to be 39 7121 7017 cr<sup>-1</sup>. This is a specific frequency at which ground-state caesium-133 atoms are most likely to transition to an exited state, a process that can be measured and used to calibrate atomic clocks with high precision.</p>
+
+      <p>Formally, the cronmon can be defined by the following equation:</p>
+
+      <p class='equation'>
+        \[1vl = \frac{3971217017}{\Delta v_{Cs}}.\]
+      </p>
+
+      <p>It is possible to convert between cronmon and seconds precisely because both units are defined in terms of the same constant:</p>
+
+      <p class='equation'>
+        \[1s = \frac{9192631770}{\Delta v_{Cs}}\]
+        \[\Delta v_{Cs} = \frac{1vl}{3971217017} = \frac{1s}{9192631770}\]
+        \[1vl = \left(\frac{3971217017}{9192631770}\right)s \approx 0.4320\,0001\,0047\,18\; s\]
+        \[1s = \left(\frac{9192631770}{3971217017}\right)cr \approx\ 2.3148\,1476\,0978\,35\; cr.\]
+      </p>
+
+      <p>With this conversion factor it is possible to show that one mean solar day is roughly 200 000 cr:</p>
+
+      <p class='equation'>
+        \[D: mean\ solar\ day\]
+        \[D \approx 86400.002\; s\]
+        \[86400.002\; s\ = 86400.002 \times \left(\frac{9192631770}{3971217017}\right)cr \approx 19\,9999.9999\,7815\,87\; cr\]
+        \[D \approx 200\,000.000\; cr\]
+      </p>
+
+      <p>The reason for this subdivision of the day is that it shows better the day-night cycle in the decimal system, daytime and nighttime last 100 000 cr each.</p>
+
+      <h3>The mikmon</h3>
+      <p>Named after the Greek word for length, <i>'μήκος' (m&iacute;kos)</i> and represented by the symbol <i>mk</i>, it is abbreviated as <i>'mik'</i> (pronounced <span class='IPA'>/m&#x26A;k/</span>). This unit is meant to set the speed of light in a vacuum (c<sub>0</sub>) to be 10<sup>8</sup> (100 000 000) when expressed in mk/cr. Meaning that in a perfect vacuum light would travel at a hundred million miks per crone, this would be the maximum speed for any object in the universe and it is a common constant in physics equations.</p>
+
+      <p>To define the mik in a precise and consistent way just like the crone the following equation expresses the unit in terms of c<sub>0</sub> and &Delta;v<sub>Cs</sub>:</p>
+
+      <p class='equation'>
+        \[1mk = 3971217017 \times 10^{-8} \frac{c}{\Delta v_{Cs}} = \left(\frac{c_0}{10^8}\right)cr.\]
+      </p>
+
+      <p>The metre is also defined in terms of the speed of light so, again, the conversion factor is simple.</p>
+
+      <p class='equation'>
+        \[1m = \frac{9192631770}{299792458} \frac{c_0}{\Delta v_{Cs}}\]
+        \[\frac{c_0}{\Delta v_{Cs}} = \left(\frac{10^8}{3971217017}\right)mk = \left(\frac{299792458}{9192631770}\right)m\]
+        \[1mk = \left(\frac{3971217017 \times 299792458}{9192631770 \times 10^8}\right)m \approx 1.2951\,0344\,8680\,68\; m.\]
+      </p>
+
       </article>
   	</main>
   	<footer></footer>
